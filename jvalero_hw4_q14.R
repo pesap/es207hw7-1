@@ -1,6 +1,7 @@
 # 14. Write a function to calculate the ANNUAL (calendar year) mean, median, 
 # max and min of all sites that have "San" or "Santa" in their name.
 
+# Loading libraries
 library(tidyverse)
 library(readxl)
 library(rlist)
