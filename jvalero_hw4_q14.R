@@ -6,7 +6,7 @@ library(readxl)
 library(rlist)
 
 # Loading data
-setwd("C:/Users/Jorge Valero/Desktop/d/spring_2019/eda/hw4")
+
 loc <- read_excel("data/ca_ozone/location.xls")
 
 # 1. Selection of the points that have "san" or "santa"
@@ -24,7 +24,6 @@ loc_san3 <- tibble(site=loc_san2)
 
 #2. Load ozone files
 # Load files
-setwd("C:/Users/Jorge Valero/Desktop/d/spring_2019/eda/hw4/data/ca_ozone")
 library(readr)
 p1 <- read_delim("ozone19801984.txt", delim = "|")
 p2 <- read_delim("ozone19851989.txt", delim = "|")
