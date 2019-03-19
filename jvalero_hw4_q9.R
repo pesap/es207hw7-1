@@ -4,7 +4,6 @@
 library(tidyverse)
 library(readxl)
 
-setwd("C:/Users/Jorge Valero/Desktop/d/spring_2019/eda/hw4")
 loc <- read_excel("data/ca_ozone/location.xls")
 
 # The first step is to convert all elements of the column "Site Name" to lowercase letters
